@@ -12,8 +12,8 @@
 <a href="#i3">3. Twitter discourse and ALCX metrics  </a><br>
 &emsp;<a href="#i31">3.1. Correlation between volume of discourse and price  </a><br>
 &emsp;<a href="#i32">3.2. Other metrics </a><br>
-&emsp;<a href="#i321">3.2.1. Total value locked (TVL) </a><br>
-&emsp;<a href="#i322">3.2.2. Unique wallets </a><br>
+&emsp;&emsp;<a href="#i321">3.2.1. Total value locked (TVL) </a><br>
+&emsp;&emsp;<a href="#i322">3.2.2. Unique wallets </a><br>
 &emsp;<a href="#i33">3.3. Impactful individual tweets  </a><br>
 <a href="#i4">4. Sentiment analysis  </a><br>
 &emsp;<a href="#i41">4.1. General sentiment  </a>  <br>
