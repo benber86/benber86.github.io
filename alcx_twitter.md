@@ -24,13 +24,13 @@
 <a id="i1"></a> 
 ## 1. Introduction
 
-An increasing body of evidence has highlighted the relationship between Twitter and financial markets, including cryptomarkets. This paper will look at the relationship between discourse about Alchemix on Twitter and the asset's price. 
+An increasing body of evidence has highlighted the relationship between Twitter and financial markets, including cryptomarkets. This piece will look at the relationship between discourse about Alchemix on Twitter and the asset's price. 
 
-The hourly price data was obtained through <a href="https://app.flipsidecrypto.com/shareable/alcx-hourly-prices-fG2xmn">Flipside</a>
+The <a href="https://app.flipsidecrypto.com/shareable/alcx-hourly-prices-fG2xmn">hourly price data</a>, <a href="https://api.flipsidecrypto.com/api/v2/queries/c547e1a0-5869-46cd-8beb-945d6a2e254a/data/latest">total value locked</a> and <a href="https://api.flipsidecrypto.com/api/v2/queries/61faf4f4-af4e-44e3-a194-e4012edc5788/data/latest">number of unique wallets</a> was obtained through Flipside
 
 The Twitter dataset used covers the period between February 26th, 2021 and April 9th, 2021. It contains all tweets returned by Twitter for a full text or hashtag search over the following terms: `Alchemix`, `AlchemixFi` and `ALCX`.
 
-The code for this piece is available as a Jupyter notebook <a href="#">here</a>.
+The code for this piece is available as a Jupyter notebook <a href="https://github.com/benber86/alcx_twitter/blob/main/Alchemix%20scrape%20twitter.ipynb">here</a>.
 
 <a id="i11"></a>
 ### 1.1. Dataset overview
