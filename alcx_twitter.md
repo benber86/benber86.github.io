@@ -9,11 +9,14 @@
 <a href="#i2">2. Keywords and themes  </a><br>
 &emsp;<a href="#i21">2.1. Wordcloud  </a><br>
 &emsp;<a href="#i22">2.2. Topics  </a><br>
-<a href="#i3">3. Twitter discourse and ALCX price  </a><br>
+<a href="#i3">3. Twitter discourse and ALCX metrics  </a><br>
 &emsp;<a href="#i31">3.1. Correlation between volume of discourse and price  </a><br>
-&emsp;<a href="#i32">3.2. Impactful individual tweets  </a><br>
+&emsp;<a href="#i32">3.2. Other metrics </a><br>
+&emsp;&emsp;<a href="#i321">3.2.1. Total value locked (TVL) </a><br>
+&emsp;&emsp;<a href="#i322">3.2.2. Unique wallets </a><br>
+&emsp;<a href="#i33">3.3. Impactful individual tweets  </a><br>
 <a href="#i4">4. Sentiment analysis  </a><br>
-&emsp;<a href="#i41">4.1. General sentiment  </a> </a><br>
+&emsp;<a href="#i41">4.1. General sentiment  </a>  <br>
 &emsp;&emsp;<a href="#i411">4.1.1. Bullish tweets  </a><br>
 &emsp;&emsp;<a href="#i412">4.1.2. Bearish tweets  </a><br>
 &emsp;<a href="#i42">4.2 Twitter sentiment and price  </a><br>
@@ -122,7 +125,7 @@ Topic 0 looks like it is about trading and farming, Topic 1 about Investors and 
 </div>
 
 <a id="i3"></a>
-## 3. Twitter discourse and ALCX price
+## 3. Twitter discourse and ALCX metrics
 
 <a id="i31"></a>
 ### 3.1. Correlation between volume of discourse and price
@@ -137,8 +140,32 @@ The two series are positively correlated (Pearson's R = 0.22, p = 0.00433) sugge
 
 While there is no evidence that Twitter discourse influences price, **price fluctuations do have a significant effect on discourse volume** at lags 1 and 2. This suggests that Alchemix Twitter users are more reactive than proactive - discussing price variations rather than causing them.
 
+
 <a id="i32"></a>
-### 3.2. Impactful individual tweets
+### 3.2. Other metrics
+
+Let's look at other metrics beyond price: total value locked in farming pools and new unique wallets. The periodicity will be daily.
+
+<a id="i321"></a>
+#### 3.2.1. Total value locked (TVL)
+
+For total value locked, there was no significant evidence of correlation:
+
+<div align="center" style="flex">
+  <img src="assets/alchemix_tweets_vs_tvl.png">
+</div>
+
+<a id="i322"></a>
+#### 3.2.2. Unique wallets
+
+For the number of daily new wallets, there was likewise no significant evidence of correlation:
+
+<div align="center" style="flex">
+  <img src="assets/alchemix_tweets_vs_unique_wallets.png">
+</div>
+
+<a id="i33"></a>
+### 3.3. Impactful individual tweets
 
 While overall the volume of discourse on Twitter seems unable to influence the price of Alchemix, it is possible that individual tweets could move the price. Elon Musk's tweet about $BTC and $DOGE, for instance, have caused <a href="https://www.forbes.com/sites/ronshevlin/2021/02/21/how-elon-musk-moves-the-price-of-bitcoin-with-his-twitter-activity/?sh=385d85c45d27">variations of over 20%</a> in the price of each asset. 
 
