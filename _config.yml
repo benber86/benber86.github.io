@@ -2,4 +2,8 @@ layout: test
 title: "test page"
 permalink: /test
 filename: test.md
+layout: alcx
+title: "ALCX Twitter"
+permalink: /alcx_twitter
+filename: alcx_twitter.md
 theme: jekyll-theme-minimal
