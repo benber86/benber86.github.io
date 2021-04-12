@@ -133,7 +133,7 @@ Topic 0 looks like it is about trading and farming, Topic 1 about Investors and 
 What is the relationship between the volume of discourse on Twitter and the price of ALCX? The two metrics are plotted in the graph below:
 
 <div align="center" style="flex">
-  <img src="assets/alchemix_price_vs_twitter_volume.png">
+  <a href="assets/alchemix_price_vs_twitter_volume.png"><img src="assets/alchemix_price_vs_twitter_volume.png"></a>
 </div>
 
 The two series are positively correlated (Pearson's R = 0.22, p = 0.00433) suggesting that changes in Twitter discourse volume influences Alchemix price and/or vice-versa. Running a <a href="https://en.wikipedia.org/wiki/Granger_causality">Granger causality test</a> will let us know if one (or both) of the two variables has predictive power for the other. Granger tests also let us specify lags to account for the fact that the effect of one variable of the other may be delayed in time. I used 6 hour intervals and 5 lags. 
@@ -152,7 +152,7 @@ Let's look at other metrics beyond price: total value locked in farming pools an
 For total value locked, there was no significant evidence of correlation:
 
 <div align="center" style="flex">
-  <img src="assets/alchemix_tweets_vs_tvl.png">
+  <a href="assets/alchemix_tweets_vs_tvl.png"><img src="assets/alchemix_tweets_vs_tvl.png"></a>
 </div>
 
 <a id="i322"></a>
@@ -161,7 +161,7 @@ For total value locked, there was no significant evidence of correlation:
 For the number of daily new wallets, there was likewise no significant evidence of correlation:
 
 <div align="center" style="flex">
-  <img src="assets/alchemix_tweets_vs_unique_wallets.png">
+  <a href="assets/alchemix_tweets_vs_unique_wallets.png"><img src="assets/alchemix_tweets_vs_unique_wallets.png"></a>
 </div>
 
 <a id="i33"></a>
@@ -398,5 +398,5 @@ The most negative tweets were as follow:
 The variations of $ALCX price and averaged Twitter sentiment over 6 hour periods are charted below. However there was no significant evidence of any correlation between the two series: 
 
 <div align="center" style="flex">
-  <img src="assets/alchemix_twitter_sentiment_vs_price.png">
+  <a href="assets/alchemix_twitter_sentiment_vs_price.png"><img src="assets/alchemix_twitter_sentiment_vs_price.png"></a>
 </div>
