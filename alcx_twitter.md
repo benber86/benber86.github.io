@@ -238,13 +238,13 @@ Most of these tweets actually belong to a <a href="https://twitter.com/defichadv
 
 So maybe the quality of the community worked as a strong buy signal.
 
-The exercise proves less meaningful when considering large drops in price as those large negative variations were are artefacts of early volatility and concentrated during the first days of the project.
+The exercise proves less meaningful when considering large drops in price as those large negative variations were artefacts of early volatility and concentrated during the first days of the project.
 
 <a id="i4"></a>
 ## 4. Sentiment analysis
 
 
-Despite extensive research and efforts, Twitter sentiment analysis is still far from being unreliable. The accuracy of state-of-the-art models <a href="https://dl.acm.org/doi/pdf/10.1145/3185045">hovers around 70 percent</a>. Consequently conclusions drawn from sentiment analysis ought to be taken with a grain of salt.
+Despite extensive research and efforts, Twitter sentiment analysis is still not fully reliable. The accuracy of state-of-the-art models <a href="https://dl.acm.org/doi/pdf/10.1145/3185045">hovers around 70 percent</a>. Consequently conclusions drawn from sentiment analysis ought to be taken with a grain of salt.
 
 I used a <a href="https://paperswithcode.com/method/roberta">RoBERTa</a> based <a href="https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment">model trained on Twitter data for sentiment analysis.</a> I only applied minor preprocessing (removing mentions and the hash key in front of hashtags) and slightly transformed the original model's ouput to obtain a final score between -1 (negative) and 1 (positive) for each Tweet.
 
