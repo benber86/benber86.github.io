@@ -13,7 +13,7 @@
 &emsp;<a href="#i31">3.1. Correlation between volume of discourse and price  </a><br>
 &emsp;<a href="#i32">3.2. Impactful individual tweets  </a><br>
 <a href="#i4">4. Sentiment analysis  </a><br>
-&emsp;<a href="#i41">4.1. General sentiment  </a> </a><br>
+&emsp;<a href="#i41">4.1. General sentiment  </a>  <br>
 &emsp;&emsp;<a href="#i411">4.1.1. Bullish tweets  </a><br>
 &emsp;&emsp;<a href="#i412">4.1.2. Bearish tweets  </a><br>
 &emsp;<a href="#i42">4.2 Twitter sentiment and price  </a><br>
