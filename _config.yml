@@ -6,4 +6,8 @@ layout: alcx
 title: "ALCX Twitter"
 permalink: /alcx_twitter
 filename: alcx_twitter.md
+layout: alcx
+title: "ALCX Holders"
+permalink: /alcx_holders
+filename: alcx_gini.md
 theme: jekyll-theme-minimal
