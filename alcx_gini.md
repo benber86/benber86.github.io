@@ -12,6 +12,8 @@ This piece is written to answer the following questions regarding the Alchemix e
 
 The data was obtained from <a href="https://app.flipsidecrypto.com/shareable/alcx-whales-in-pools-fVKsea">Flipside</a> and processed with Python.
 
+Overall each function exhibits a similar and very unequal wealth distribution, with close to or over half of the value in the hands of the top 25 holders and very high GNI coefficients that have steadily increased over time.
+
 ## 2. ALCX Pool
 
 In the ALCX Pool (<a href="https://etherscan.io/address/0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF">0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF</a>), the top 25 wallets hold 40.1% of the value or 32330.51 ALCX (~56 125 765 USD at 2021/04/13 value).
@@ -26,6 +28,12 @@ The GINI coefficient for the pool was 0.91, the distribution of wealth is charte
 
 <div align="center">
   <img src="assets/alchemix_gini_alcx.png">
+</div>
+
+The coefficient has increased over time:
+
+<div align="center">
+  <img src="assets/alchemix_historical_gini_alcx.png">
 </div>
 
 
@@ -46,6 +54,12 @@ The GINI coefficient for the pool was 0.89, the distribution of wealth is charte
 </div>
 
 
+The coefficient has increased over time:
+
+<div align="center">
+  <img src="assets/alchemix_historical_gini_sushi.png">
+</div>
+
 ## 4. alUSD Pool
 
 In the alUSD Pool (<a href="https://etherscan.io/address/0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9">0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9</a>), the top 25 wallets hold 64.7% of the value or ~32 396 744 USD.
@@ -62,6 +76,11 @@ The GINI coefficient for the pool was 0.95, the distribution of wealth is charte
   <img src="assets/alchemix_gini_alusd.png">
 </div>
 
+The coefficient has increased over time:
+
+<div align="center">
+  <img src="assets/alchemix_historical_gini_alusd.png">
+</div>
 
 ## 5. alUSDCRV Pool
 
@@ -79,6 +98,11 @@ The GINI coefficient for the pool was 0.92, the distribution of wealth is charte
   <img src="assets/alchemix_gini_curve.png">
 </div>
 
+The coefficient has increased over time:
+
+<div align="center">
+  <img src="assets/alchemix_historical_gini_curve.png">
+</div>
 
 ## 6. Vault
 
@@ -96,6 +120,11 @@ The GINI coefficient for the pool was 0.95, the distribution of wealth is charte
   <img src="assets/alchemix_gini_vault.png">
 </div>
 
+The coefficient has increased over time:
+
+<div align="center">
+  <img src="assets/alchemix_historical_gini_vault.png">
+</div>
 
 ## 7. Transmuter
 
@@ -111,4 +140,10 @@ The GINI coefficient for the pool was 0.97, the distribution of wealth is charte
 
 <div align="center">
   <img src="assets/alchemix_gini_trans.png">
+</div>
+
+The coefficient has increased over time:
+
+<div align="center">
+  <img src="assets/alchemix_historical_gini_trans.png">
 </div>
