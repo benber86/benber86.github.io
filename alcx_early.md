@@ -71,14 +71,14 @@ There are significant differences in the staking behavior of early and late inve
   <img src="assets/alchemix_tvl_functions.png">
 </div>
 
-When comparing the way assets are staked across Alchemix's functions also shows an apparent difference:
+Comparing the way assets are staked across Alchemix's functions also shows an apparent difference:
 
 <div align="center">
   <img src="assets/alchemix_tvl_early_percent.png"> 
   <img src="assets/alchemix_tvl_late_percent.png">
 </div>
 
-However, the distribution is skewed by the Vault, where a few early users account for over 75% of the TVL. If we only consider the distribution of TVL across the 4 ALCX farms, we find that there are few actual differences between early and late investors:
+However, the distribution is skewed by the Vault, where a few early users account for over 75% of the TVL and several hundred millions USD. If we only consider the distribution of TVL across the 4 ALCX farms, we find that there are few actual differences between early and late investors:
 
 <div align="center">
   <img src="assets/alchemix_tvl_early_percent_farms.png">
