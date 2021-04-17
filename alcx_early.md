@@ -19,7 +19,7 @@ Early investors make up roughly one third of all current ALCX holders:
   <img src="assets/alchemix_early_vs_late_investors.png">
 </div>
 
-While late investors collectively hold over a billion dollar worth of ERC-20 tokens compared to early investor's 280+ millions, that difference is proportional to the number of investors making up each group. The average portfolio value for early investors is $137,650 against $161,819 for late investors:
+While late investors collectively hold over a billion dollar worth of ERC-20 tokens compared to early investor's 280+ millions, that difference is proportional to the number of investors making up each group. The average portfolio value for early investors is $137,650 against $161,819 for late investors. However the median ERC-20 portfolio value for early investors is $2,764 against $1,194 for late investors. This discrepancy between the mean and the median means that there is more inequality among late investors (more - or larger - whales and smaller portfolio values for regular users).
 
 <div align="center">
   <img src="assets/alchemix_early_vs_late_investors_aggregated_portfolio_value.png">
@@ -28,11 +28,13 @@ While late investors collectively hold over a billion dollar worth of ERC-20 tok
 <a id='i2'></a>
 ## 2. Investor portfolios
 
-Looking at the aggregate portfolios of the two investor groups reveals some notable differences. In both portfolios, WETH accounts for most of the value and blue chip DeFi tokens such as SNX or AAVE account for the majority of tokens. However, while WBTC is the second largest hold in value for late investors, it is only a minor hold for early investors. Likewise the proportion of value held in stablecoins is much higher in the late investors portfolio suggesting that this group is more risk averse than early investors. 
+Looking at the aggregate portfolios of the two investor groups reveals some differences - however most are the results of ALCX entering contracts with large holdings of other tokens. In both portfolios, WETH accounts for most of the value and blue chip DeFi tokens such as SNX or AAVE account for the majority of tokens. 
 
-Alchemix is built upon Yearn and while a higher proportion of early investors held the token compared to late investors, YFI holds a much more significant position in terms of value in the late investors' portfolio. This suggests that the arrival of a few YFI-rich investors among the group of late investors. 
+While WBTC is the second largest hold in value for late investors, it is only a minor hold for early investors. However, almost the entirety of WBTC value is held by a single address hosting the <a href='https://etherscan.io/address/0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf#code'>Matic Bridge contract</a> and is simply an indication of user migration to Matic. Likewise the proportion of value held in stablecoins is much higher in the late investors portfolio suggesting that this group is more risk averse than early investors. 
 
-The late investors' group has more ALCX holders than the early investors group. This indicates that early investors are probably more likely to stake their ALCX for extra rewards, while late investors may not all be aware of the extra mining incentives. The issue of staking is explored in further detail in the next section.
+Alchemix is built upon Yearn and while a higher proportion of early investors held the token compared to late investors, YFI holds a much more significant position in terms of value in the late investors' portfolio. However, rather than an actual difference in holding patterns, this is largely a reflection of the large amount of YFI held by the <a href="https://etherscan.io/address/0xb1cff81b9305166ff1efc49a129ad2afcd7bcf19#code">Yearn vault</a>. 
+
+The late investors' group has more ALCX holders than the early investors group. This indicates that early investors are probably more likely to stake their ALCX for extra rewards, while late investors may not all be aware of the extra mining incentives. The question of staking is explored in further detail in the next section.
 
 <a id='i21'></a>
 ### 2.1. ERC-20 tokens distribution
