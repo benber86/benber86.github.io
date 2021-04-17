@@ -2,12 +2,20 @@ layout: test
 title: "test page"
 permalink: /test
 filename: test.md
+
 layout: alcx
 title: "ALCX Twitter"
 permalink: /alcx_twitter
 filename: alcx_twitter.md
+
 layout: alcx
-title: "ALCX Holders"
+title: "ALCX Inequality"
 permalink: /alcx_gini
-filename: alcx_gini.md
+filename: alcx_gini.md 
+
+layout: alcx
+title: "ALCX Investors"
+permalink: /alcx_early
+filename: alcx_early.md
+
 theme: jekyll-theme-minimal
