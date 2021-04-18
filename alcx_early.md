@@ -6,6 +6,7 @@
 &emsp;<a href='#i22'>2.2. ERC-20 tokens by value held</a><br>
 &emsp;<a href='#i23'>2.3. ERC-20 tokens by number of holders</a><br>
 <a href='#i3'>3. Investor staking behavior</a><br>
+<a href='#i4'>4. Using marchine learning to map differences between investor groups</a><br>
 
 <a id='i1'></a>
 ## 1. Introduction
@@ -86,3 +87,18 @@ However, the distribution is skewed by the Vault, where a few early users accoun
   <img src="assets/alchemix_tvl_early_percent_farms.png">
   <img src="assets/alchemix_tvl_late_percent_farms.png">
 </div>
+
+<a id='i4'></a>
+## 4. Using marchine learning to map differences between investor groups
+
+To get a more quantified understanding of how much the two groups differ and how each of the specific differences previously noted contribute to inter-group differenciation, I train a simple machine learning classifier to distinguish between early and late investors.
+
+Each investor in the dataset was vectorized according to a set of 31 features: TVL in each of Alchemix's function (6 feature), USD balance for 24 ERC-20 tokens most commonly held by ALCX user (24 features) and USD balance for all other ERC-20 token in their portfolio. The data is normalized an an XGBoost classifier is trained on it with class weighting to account for the imbalance between early and late users. Without any further preprocessing and hyperparmeter optimization, the model's F-1 score was 0.68 which is not great but better than chance and therefore suggests that there are indeed meaningful differences between the two groups.
+
+The importance given to each feature by the model is charted below:
+
+<div align="center">
+  <img src="assets/alchemix_xgboost_feature_importances.png">
+</div>
+
+It appears that the portfolio constitution is not a very good predictor of the difference. This may be due to the fact that the dataset only considers ERC-20 assets held but ignores assets staked in pools outside of Alchemix. TVL in the pools, on the other hand, is the best indicator of whether a user is an early or late investor. The role of the Vault may be overplayed by outliers. Whether investors hold the ALCX token - rather than stake it - also plays a significant role in discriminating between the two groups. 
