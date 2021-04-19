@@ -45,4 +45,4 @@ The two protocols have grown at different rates. Although Wasabix is an order of
   <img src="assets/wasabix_average_growth_rate_pool.png">
 </div>
 
-There are several differences in the average growth rates of individual pools 
+There are several differences in the average growth rates of individual pools but overall Wasabix has grown at a faster pace than Alchemix. This can be explained in different ways : Alchemix was as a much anticipated project and so enjoyed a large influx of liquidity almost as soon as it launched. On the other Wasabix was a fork that started with very little liquidity and therefore had more room to grow day-by-day. That growth, however, would likely have been impossible without the success of the original Alchemix project, thus highlighting the unfair advantage of forks that can achieve growth rates superior to that of the original product.
