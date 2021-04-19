@@ -18,10 +18,14 @@ title: "ALCX Investors"
 permalink: /alcx_early
 filename: alcx_early.md
 
-
 layout: alcx
 title: "ALCX Users"
 permalink: /alcx_active
 filename: alcx_active.md
+
+layout: alcx
+title: "ALCX Fork"
+permalink: /alcx_fork
+filename: alcx_fork.md
 
 theme: jekyll-theme-minimal
