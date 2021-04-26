@@ -28,4 +28,9 @@ title: "ALCX Fork"
 permalink: /alcx_fork
 filename: alcx_fork.md
 
+layout: alcx
+title: "ALCX Users"
+permalink: /alcx_users
+filename: alcx_users.md
+
 theme: jekyll-theme-minimal
